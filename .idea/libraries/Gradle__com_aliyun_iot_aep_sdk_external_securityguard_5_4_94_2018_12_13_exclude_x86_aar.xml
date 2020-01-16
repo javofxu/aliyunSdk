@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="Gradle: com.aliyun.iot.aep.sdk.external:securityguard:5.4.94.2018-12-13-exclude-x86@aar">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/../.gradle/caches/transforms-1/files-1.1/securityguard-5.4.94.2018-12-13-exclude-x86.aar/37d844e1a68aa792becb761761f35726/res" />
+      <root url="jar://$PROJECT_DIR$/../.gradle/caches/transforms-1/files-1.1/securityguard-5.4.94.2018-12-13-exclude-x86.aar/37d844e1a68aa792becb761761f35726/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

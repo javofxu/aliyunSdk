@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="Gradle: com.aliyun.alink.linksdk:ilop-devicecenter-ext-boneplugin:1.5.1@aar">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/../.gradle/caches/transforms-1/files-1.1/ilop-devicecenter-ext-boneplugin-1.5.1.aar/532ed39f69e5c12ab78909481ecc57c2/res" />
+      <root url="jar://$PROJECT_DIR$/../.gradle/caches/transforms-1/files-1.1/ilop-devicecenter-ext-boneplugin-1.5.1.aar/532ed39f69e5c12ab78909481ecc57c2/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

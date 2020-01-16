@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="Gradle: com.aliyun.ams:alicloud-android-push-iot:3.1.4.3@aar">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/../.gradle/caches/transforms-1/files-1.1/alicloud-android-push-iot-3.1.4.3.aar/d71a81e9121a2f60d21a86636b8194cc/res" />
+      <root url="jar://$PROJECT_DIR$/../.gradle/caches/transforms-1/files-1.1/alicloud-android-push-iot-3.1.4.3.aar/d71a81e9121a2f60d21a86636b8194cc/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

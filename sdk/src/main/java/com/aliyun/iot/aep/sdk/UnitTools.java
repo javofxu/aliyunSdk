@@ -10,6 +10,8 @@ import android.location.LocationManager;
 import android.media.AudioManager;
 import android.media.MediaPlayer;
 import android.media.SoundPool;
+import android.os.Build;
+import android.support.annotation.RequiresApi;
 import android.text.TextUtils;
 import android.view.Display;
 import android.view.WindowManager;
@@ -62,6 +64,7 @@ public class UnitTools {
      * 参数:context
      * 返回:当前运行的activity的名称
      */
+    @RequiresApi(api = Build.VERSION_CODES.Q)
     public static String getRunningActivityName(Context context){
         ActivityManager activityManager=(ActivityManager)context.getSystemService(Context.ACTIVITY_SERVICE);
         String runningActivity=activityManager.getRunningTasks(1).get(0).topActivity.getClassName();
@@ -202,6 +205,7 @@ public class UnitTools {
     /**
      *判断当前应用程序处于前台还是后台
      */
+    @RequiresApi(api = Build.VERSION_CODES.Q)
     public static boolean isApplicationBroughtToBackground(final Context context) {
         ActivityManager am = (ActivityManager) context.getSystemService(Context.ACTIVITY_SERVICE);
         List<ActivityManager.RunningTaskInfo> tasks = am.getRunningTasks(1);
