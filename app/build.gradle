@@ -1,0 +1,42 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 29
+    buildToolsVersion "29.0.2"
+    defaultConfig {
+        applicationId "com.aliyun.iot.aep.sdk"
+        minSdkVersion 21
+        targetSdkVersion 29
+        versionCode 1
+        versionName "1.0"
+        multiDexEnabled true
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    compileOptions {
+        sourceCompatibility = '1.8'
+        targetCompatibility = '1.8'
+    }
+
+}
+
+
+repositories {
+    google()
+    jcenter()
+    mavenLocal()
+    maven { url 'https://maven.aliyun.com/repository/jcenter' }
+    maven { url 'https://maven.google.com' }
+    maven { url "http://maven.aliyun.com/nexus/content/repositories/releases" }
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation project(path: ':sdk')
+    implementation 'androidx.constraintlayout:constraintlayout:1.1.3'
+}

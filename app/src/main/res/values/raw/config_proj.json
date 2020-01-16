@@ -1,0 +1,57 @@
+{
+  "instruction": {
+    "show":true,
+    "url": {
+      "default":"http://www.china-siter.com/company_detail.html?introId=17",
+      "zh": "http://www.china-siter.cn/company_detail.html?introId=17",
+      "en": "http://www.china-siter.com/company_detail.html?introId=17",
+      "fr": "http://www.china-siter.com/company_detail.html?introId=17",
+      "de": "http://www.china-siter.com/company_detail.html?introId=17",
+      "es": "http://www.china-siter.com/company_detail.html?introId=17",
+      "fi": "http://www.china-siter.com/company_detail.html?introId=17",
+      "cs": "http://www.china-siter.com/company_detail.html?introId=17",
+      "it": "http://www.china-siter.com/company_detail.html?introId=17",
+      "nl": "http://www.china-siter.com/company_detail.html?introId=17",
+      "sl": "http://www.china-siter.com/company_detail.html?introId=17"
+    }
+  },
+  "offical_web": {
+    "url": {
+      "default":"www.china-siter.com",
+      "zh": "www.china-siter.cn",
+      "en": "www.china-siter.com",
+      "fr": "www.china-siter.com",
+      "de": "www.china-siter.com",
+      "es": "www.china-siter.com",
+      "fi": "www.china-siter.com",
+      "cs": "www.china-siter.com",
+      "it": "www.china-siter.com",
+      "nl": "www.china-siter.com",
+      "sl": "www.china-siter.com"
+    }
+  },
+  "privacy_agreement": {
+    "url": {
+      "default":"file:///android_asset/register_en.html",
+      "zh": "file:///android_asset/register_zh.html",
+      "en": "file:///android_asset/register_en.html",
+      "fr": "file:///android_asset/register_fr.html",
+      "de": "file:///android_asset/register_de.html",
+      "es": "file:///android_asset/register_es.html",
+      "fi": "file:///android_asset/register_en.html",
+      "cs": "file:///android_asset/register_en.html",
+      "it": "file:///android_asset/register_en.html",
+      "nl": "file:///android_asset/register_en.html",
+      "sl": "file:///android_asset/register_en.html"
+    }
+  },
+  "app_upgrade_url":"http://61.164.94.198:1415/point/app/SiterAction!getAppUpdateFamilywellPlus.action",
+  "app_download_url":"家庭卫士.apk",
+  "mi_config":{
+    "appid":"2882303761517677475",
+    "appkey":"5411767797475"
+  },
+  "udp_config":"site05EN"
+}
+
+
